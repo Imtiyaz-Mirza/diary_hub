@@ -1,0 +1,137 @@
+
+.custom-carousel-container {
+    width: 800px; 
+    height: 400px; 
+    border-radius: 100px; 
+    overflow: hidden; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+
+#curvedCarousel,
+.carousel-inner {
+    width: 100%;
+    max-width: 1000%;
+    height: 100%;
+}
+
+/* SCALING FOR VERY SMALL DEVICES (e.g., Phones) */
+@media (max-width: 600px) {
+    #fixed-scale-wrapper {
+        /* Example: Scale everything down by 50% if the screen is 600px or smaller */
+        transform: scale(0.5); 
+    }
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Ensures images cover the entire slide area */
+    /* Remove any internal border-radius so the parent's radius does the clipping */
+    border-radius: 0; 
+}
+
+/* 4. Optional: Custom style for the controls to fit the curve aesthetically
+*/
+.carousel-control-prev,
+.carousel-control-next {
+    /* Adjust control position if necessary */
+    width: 100%; 
+}
+.main-container {
+    background-image: url("https://wallpaperaccess.com/full/202978.jpg");
+    background-size: cover;
+    width: 1200px;
+}
+.catogeres-heading {
+    background-color: cadetblue;
+    border: 2px;
+    background-size: cover;
+    border-color: red;
+    border-radius: 50px 10px;  
+}
+
+.catogeres {
+    color: linen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+}
+
+.small-containers-section {
+    background-color: antiquewhite;
+    height: 650px;
+    width: 1000px;
+    padding-top: 2px;
+    border-radius: 12px;
+    margin-left: 40px;
+    
+    
+}
+
+
+.mini-img {
+    height: 120px; 
+    width: 110px;  
+    margin-top: 10px;
+    margin: 0; 
+    border-radius: 20px;
+    margin-bottom: 5px; 
+}
+
+#milk-head {
+    color: brown;
+    font-style: italic;
+    font-family: "Monoton";
+    font-size: large;
+    margin: 0; 
+    height: auto;
+    text-decoration: underline;
+   
+    text-align: center; 
+}
+
+.head {
+   
+    padding: 5px; 
+}
+.para {
+    font-family: "roboto";
+    font-style: oblique;
+    color: blanchedalmond;
+    font-size: 12px;
+}
+.extra-style {
+    color: blue;
+    text-decoration: underline;
+    font-family: 'roboto';
+    font-weight: bold;
+}
+.border-box {
+  border: 2px solid #333;
+  padding: 15px;
+  margin: 10px;
+  border-color: antiquewhite;
+  border-width: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  height: 700px;
+}
+.mini-container {
+    background-color: burlywood;
+    height: 250px; 
+    width: 170px; 
+    border-radius: 30px;
+    margin-right: 35px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    margin-top: 30px;
+    padding-top: 20px;  
+}
+
+.ridge-box {
+  border: 5px ridge #3498db;
+  border-width: 10px;
+}

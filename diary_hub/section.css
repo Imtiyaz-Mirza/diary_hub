@@ -1,0 +1,70 @@
+
+.main-bg-container {
+    background-color: purple;
+    min-height: 100%;
+    min-width: min-content;
+    
+}
+.second-main-container {
+    background-color: whitesmoke;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    height: inherit;
+}
+.search-section {
+    background-color: lightslategray;
+    border: 0px;
+    margin-bottom: 15px;
+    border-radius: 90px;
+}
+.p {
+    color: white;
+    font-weight: bold;
+    font-family: "fantasy";
+    margin-top: 7px;
+}
+.main-small-containers-section {         
+    align-content: center;
+    width: fit-content;
+    border: 10px ridge #3498db;
+    
+}
+
+.rainbow-box {
+    border: 4px solid transparent; 
+    align-items: center;
+    padding: 20px; 
+    margin: 10px;
+    height: 150px;
+    border-image: linear-gradient(
+        to right, 
+        red, 
+        orange, 
+        yellow, 
+        green, 
+        blue, 
+        indigo, 
+        violet
+    );
+    border-image-slice: 1; 
+    background-color: #282c34; 
+    color: white; 
+}
+.img-head {
+    text-align: center;
+    color: cyan;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+}
+.img-btn {
+    margin-right: 10px;
+}
+.img-para {
+    font-family: cursive;
+}
+.fab-icon {
+    background-color: lightslategray;
+    border: 0px;
+    margin-left: 10px;
+}
